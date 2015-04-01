@@ -1,0 +1,27 @@
+fileTypes: [
+  "asn"
+]
+name: "Abstract Syntax Notation"
+patterns: [
+  {
+    match: "--.*$",
+    name: "comment.line.asn"
+  },
+  {
+    match: "(BIT|OCTET) STRING|OBJECT IDENTIFIER|SEQUENCE( OF)?|SET( OF)?|INTEGER|ANY DEFINED BY|IA5String",
+    name: "storage.type.asn"
+  },
+  {
+    match: "OPTIONAL",
+    name: "storage.modifier.asn"
+  },
+  {
+    match: "BEGIN|END|DEFINITIONS|TAGS",
+    name: "keyword.language.asn"
+  },
+  {
+    match: "(IM|EX)PLICIT",
+    name: "constant.language.asn"
+  }
+]
+scopeName: "source.asn"
