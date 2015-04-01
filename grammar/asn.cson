@@ -1,0 +1,15 @@
+fileTypes: [
+  "asn"
+]
+name: "Abstract Syntax Notation"
+patterns: [
+  {
+    match: "--.*$",
+    name: "comment.line.asn"
+  },
+  {
+    match: "BEGIN|END|DEFINITIONS|IMPLICIT|TAGS|SEQUENCE|(BIT|OCTET) STRING|OBJECT IDENTIFIER"
+    name: "constant.language.asn"
+  }
+]
+scopeName: "source.asn"

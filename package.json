@@ -1,0 +1,11 @@
+{
+  "name": "language-asn1",
+  "version": "0.1.0",
+  "description": "ASN.1 language support in Atom",
+  "repository": "https://github.com/sparticvs/atom-language-asn1",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {}
+}
