@@ -1,5 +1,6 @@
 fileTypes: [
-  "asn"
+  "asn",
+  "asn1"
 ]
 name: "Abstract Syntax Notation"
 patterns: [
